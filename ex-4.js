@@ -9,6 +9,16 @@ const employees = [
     age: 25,
     hobbies: ["Cryptocurrency", "Social media"],
   },
+  {
+    name: "Alicia",
+    age: 29,
+    hobbies: ["Shopping", "Reading novels"],
+  },
+  {
+    name: "Kody",
+    age: 19,
+    hobbies: ["“Computer games", "Wakeboard"],
+  },
 ];
 
 // Start coding here

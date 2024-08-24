@@ -2,7 +2,7 @@ const employees = [
   {
     name: "James",
     age: 40,
-    hobbies: ["Football", "Social media"],
+    hobbies: ["Football", "Social media", "Watching basketball"],
   },
   {
     name: "Alex",
@@ -12,3 +12,5 @@ const employees = [
 ];
 
 // Start coding here
+let alexHobbies = employees[0].hobbies
+console.log(alexHobbies[2])

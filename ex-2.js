@@ -11,6 +11,11 @@ const employees = [
   },
 ];
 // Start coding here
-let alex;
-let alexHobbies;
-let alexAndJamesAge;
+let alex = employees
+console.log(employees[1].name)
+let alexHobbies = employees
+console.log(employees[1].hobbies)
+let alexAge = employees[0].age
+let jameAge = employees[1].age
+let alexAndJamesAge = alexAge + jameAge
+console.log(alexAndJamesAge)
